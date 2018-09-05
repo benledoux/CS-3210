@@ -1,0 +1,23 @@
+4 3      allocated 3 local cell(s).
+27 0      Storing 5 in LOCAL cell 0
+3 0        push input on the stack.
+2 1001      Calling          |
+6 1                          |
+28 1                         |
+29                           |
+26                           |
+                             |
+1 1001                       |
+4 6 allocate 6 cells<====================================|
+22 2 2      Putting 2 in local cell 2                    |
+22 1 1  	Putting 1 in local cell 1                    |
+16 6 0 2    Less than 5 and 2 = 0. Cell 60 contains 0    |
+8 2001 6    Conditional jump if cell 6 is not 0          |
+10 3 0 1    Subtracting5 and 1 = 4. Cell 3 contains 4    |
+3 3                                                      |
+2 1001      Calling -------------------------------------|
+6 4
+11 5 0 4
+5 5
+1 2001
+5 1
