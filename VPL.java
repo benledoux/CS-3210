@@ -1,5 +1,11 @@
 package project1;
 
+/*
+Elie S.
+
+He said he just needs our VPL.java.
+Whoever's last to review should turn it in too.
+*/
 import java.io.*;
 import java.util.*;
 
